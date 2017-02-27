@@ -13,9 +13,6 @@ Intrucciones:
 //Autoload//
 spl_autoload_register('myAutoloader');
 
-
 function myAutoloader($class) {
-
     include 'classes./class.'.$class.'.php';
-    
 }
