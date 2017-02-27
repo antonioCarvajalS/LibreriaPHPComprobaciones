@@ -19,21 +19,20 @@ function myAutoloader($class) {<br/>
 
 - Luego simplemente utilizar la clase LibreriaValidaciones::Funcion($datos)
 ejemplo:
-<div>
-    $ejemploNombre = "Pedro";
-    $ejemploNombreMal = "Pedro2";
+<br/>
+    $ejemploNombre = "Pedro";<br/>
+    $ejemploNombreMal = "Pedro2";<br/><br/>
     
-    ejemplo($ejemploNombre); //Mostrará 'Nombre Bien'
-    ejemplo($ejemploNombreMal); //Mostrará 'Nombre Mal'
+    ejemplo($ejemploNombre); //Mostrará 'Nombre Bien'<br/>
+    ejemplo($ejemploNombreMal); //Mostrará 'Nombre Mal'<br/><br/>
     
-    function ejemplo($nombre){
-        if(LibreriaValidaciones::compruebaNombre($nombre)){
-            echo ('Nombre Bien');
-        }else{
+    function ejemplo($nombre){<br/>
+        if(LibreriaValidaciones::compruebaNombre($nombre)){<br/>
+            echo ('Nombre Bien');<br/>
+        }else{<br/>
             echo ('Nombre Mal');
         }
     }
-</div>
 
 <b>Funciones</b><br/><div>
     // ###### INICIO FUNCIONES DE COMPROBACIÓN DE CAMPOS ######//<br/>
