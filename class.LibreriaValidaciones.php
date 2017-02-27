@@ -107,7 +107,8 @@ class LibreriaValidaciones{
 
         return $result;
     }
-
+    
+    //Función que comprueba una hora dada formato (hh:mm:ss)//
     public static function compruebaHora($hora){
         $result = false;
         $pattern="/^([0-1][0-9]|[2][0-3])[\:]([0-5][0-9])[\:]([0-5][0-9])$/";
